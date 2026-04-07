@@ -6,7 +6,7 @@
 
 본 인프라는 보안과 확장성을 고려하여 다음과 같이 설계되었습니다.
 
-![GCP Architecture Diagram](./gcp_architecture.png)
+<img width="2160" height="2896" alt="Image" src="https://github.com/user-attachments/assets/4e1e42b9-7306-435c-8f23-10feee82c155" />
 
 ## 📂 Project Structure
 
@@ -16,6 +16,8 @@
 * **`variables.tf`**: 리전, 존, 프로젝트 ID 등 공통적으로 사용되는 변수 정의.
 * **`vpc.tf`**: VPC, 서브넷(서울, 오레곤), 방화벽 규칙, Cloud Router/NAT 등 네트워크 관련 리소스 정의.
 * **`main.tf`**: 실제 Compute Engine(VM) 인스턴스(Web, WAS) 생성 및 Startup Script 정의.
+
+<br>
 
 ## 🚀 Quick Start
 
