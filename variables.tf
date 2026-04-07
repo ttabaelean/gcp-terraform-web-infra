@@ -1,6 +1,6 @@
 variable "project_id" {
   description = "GCP Project ID"
-  default     = "gen-lang-client-0535711715" # 프로젝트 ID 입력
+  default     = "proct_ID" # 프로젝트 ID 입력
 }
 
 variable "region_seoul" {
